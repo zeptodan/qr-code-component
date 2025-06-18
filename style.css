@@ -6,6 +6,12 @@
     --Font-Size: 15px;
     --Font-Family: 'Outfit', sans-serif;
 }
+@media screen and (max-width: 600px) {
+    :root {
+        --Font-Size: 12px;
+    }
+    
+}
 body{
     margin: 0;
     padding: 0;
@@ -20,7 +26,7 @@ body{
     background-color: var(--White);
     border-radius: 1.5rem;
     display: flex;
-    justify-content: stretch;
+    justify-content: center;
     align-items: center;
     flex-direction: column;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
