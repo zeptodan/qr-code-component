@@ -19,6 +19,9 @@ body{
     font-weight: 400;
     font-family: var(--Font-Family);
     background-color: var(--Slate-300);
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 .container{
     width: 20rem;
